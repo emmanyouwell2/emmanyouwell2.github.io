@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chart test</title>
+        <link rel="stylesheet" type="text/css" href="css/stats.css">
+        <script src="js/stats.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo-name-header">
+                    <img src="images/emman logo.png" width="50px" height="50px" alt="emman logo">
+                    Mingala, INC.
+                </div>
+                <div class="buttons">
+                    <a class="menu" href="index.html">
+                        <div class="home">Home</div>
+                    </a>
+                    <a class="menu" href="Page2.html">
+                        <div class="vaccine">Vaccine</div>
+                    </a>
+                    <a class="menu" href="Page3.html">
+                        <div class="stats">Statistics</div>
+                    </a>
+                    <a class="menu" href="homepage.html#contacts">
+                        <div class="contacts">Contacts</div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="sub-container">
+                
+                <div class="x-box-cont fade-up left-to-right">
+                    <table class="table">
+                        <tbody>
+                            <tr onmouseover="unitedStates(this)" onmouseout="hideGraph(this)">
+                                <td>United States</td>
+                                <td>80,686,464</td>
+                            </tr>
+                            <tr onmouseover="india(this)" onmouseout="hideGraph(this)">
+                                <td>India</td>
+                                <td>43,045,527</td>
+                            </tr>
+                            <tr onmouseover="brazil(this)" onmouseout="hideGraph(this)">
+                                <td>Brazil</td>
+                                <td>30,261,088</td>
+                            </tr>
+                            <tr onmouseover="france(this)" onmouseout="hideGraph(this)">
+                                <td>France</td>
+                                <td>27,980,729</td>
+                            </tr>
+                            <tr onmouseover="germany(this)" onmouseout="hideGraph(this)">
+                                <td>Germany</td>
+                                <td>23,459,628</td>
+                            </tr>
+                            <tr onmouseover="unitedKingdom(this)" onmouseout="hideGraph(this)">
+                                <td>United Kingdom</td>
+                                <td>21,916,961</td>
+                            </tr>
+                            <tr onmouseover="russia(this)" onmouseout="hideGraph(this)">
+                                <td>Russia</td>
+                                <td>17,829,009</td>
+                            </tr>
+                            <tr onmouseover="korea(this)" onmouseout="hideGraph(this)">
+                                <td>Korea</td>
+                                <td>16,471,940</td>
+                            </tr>
+                            <tr onmouseover="italy(this)" onmouseout="hideGraph(this)">
+                                <td>Italy</td>
+                                <td>15,730,676</td>
+                            </tr>
+                            <tr onmouseover="turkey(this)" onmouseout="hideGraph(this)">
+                                <td>Turkey</td>
+                                <td>14,999,479</td>
+                            </tr>
+                            <tr onmouseover="spain(this)" onmouseout="hideGraph(this)">
+                                <td>Spain</td>
+                                <td>11,627,487</td>
+                            </tr>
+                            <tr onmouseover="vietnam(this)" onmouseout="hideGraph(this)">
+                                <td>Vietnam</td>
+                                <td>10,475,819</td>
+                            </tr>
+                            <tr onmouseover="other(this)" onmouseout="hideGraph(this)">
+                                <td>Other</td>
+                                <td>190,604,218</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="chart" class="x-box fade-up bottom">
+                    <div id="selected-graph" class="united-states hide"></div>
+                </div>
+
+                <div class="details-container right-to-left">
+                    <h1>COVID-19 cases around the World</h1>
+                    <table class="table detail-table">
+                        <thead>
+                            <tr>
+                                <th>Total</th>
+                            </tr>
+                            <tr>
+                                <td>505,097,511</td>
+                            </tr>
+                        </thead>
+                        <tbody id="detail-body" class="body dont-show">
+                            
+                            <tr>
+                                <td id="country-name">United States</td>
+                            </tr>
+                            <tr>
+                                <td id="number-of-cases">80,686,464</td>
+                            </tr>
+                            <tr>
+                                <td id="percentage">16%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            
+            <div class="page-footer">
+                <div class="fade-up menu-links">
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="Page2.html">Vaccines</a></p>
+                    <p><a href="Page3.html">COVID 19 Statistics</a></p>
+                </div>
+                <div class="fade-up logo-and-name">
+                    <img src="images/emman logo.png" width="50px" height="50px" alt="emman logo">
+                    <p>Mingala, INC.</p>
+                </div>  
+            </div>
+        </div>
+        
+    </body>
+</html>
