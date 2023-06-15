@@ -26,7 +26,8 @@ a{
 .container{
     background-color: #292c33;
     width: 1500px;
-    margin:auto;
+    margin-left: auto;
+    margin-right:auto;
     padding: 0;
     
 }
